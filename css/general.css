@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: white;   
+}
+body{
+    background-color: #171718;
+}
+.container1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    gap: 30px ;
+}
+.container1-hijo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 30px ;
+}
+.container1-hijo2 li:hover{
+    text-decoration: underline #47D16E;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botoncontacto{
+    background-color: #47D16E;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
+    border: none;
+}
+
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    font-size: 50px;
+}
+.presentacion-s1{
+    color: #47D16E;
+}
+.presentacion-s2{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+.presentacion-s3{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.BOTONCV{
+    background-color: black;
+    border: 2px solid #ffffff;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+.card-presentacion{
+    background-color: #1F1F21;
+    width: 800px;
+    height: 370px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    transition: 1s;
+}
+.card-presentacion:hover{
+    box-shadow: #47D16E 0px 48px 100px 0px;
+    transition: 1s;
+}
+.card-presentacion-s2 h2{
+    color: #47D16E;
+    font-size: 40px;
+}
+.card-presentacion-s2 p{
+    color: white;
+    text-align: justify;
+}
+.BOTONMASINFO{
+    background-color: #1F1F21;
+    border: 2px solid #ffffff;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.card-presentacion-s2 a{
+    text-decoration: none;
+}
+.BOTONMASINFO:hover{
+    background-color: #ffffff;
+    color: black;
+}
+.habilidades{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.habilidades h2{
+    font-size: 40px;
+}
+.habilidades-s1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.habilidades-s1-cards{
+    text-align: center;
+    background-color: #1F1F21;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 20px;
+    transition: 1s;
+    border: 1px solid white;
+}
+
+.habilidades-s1-cards:hover{
+    width: 300px;
+    height: 300px;
+    transition: 1s;
+    box-shadow: -1px 2px 34px -7px #47D16E;
+
+}
+.softskills{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.softskills h2{
+    font-size: 40px;
+}
+.skills{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+ .proyectos{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+ }
+ .proyectos div{
+    flex-wrap: wrap;
+    display: flex;
+ }
+ .proyectos h2{
+    font-size: 40px;
+    color: #47D16E;
+ }
+ .proyectos img{
+    border-radius: 20px;
+ }
+
+.piepagina{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    flex-wrap: wrap;
+}
+.piepagina span{
+    color: #47D16E;
+}
+
+footer hr{
+    margin: auto;
+    width: 80%;
+    border: 1px solid white;
+}
+.piepagina-s2 li{
+    list-style: none;
+}
+
+.piepagina-s2 a:hover{
+    color: #47D16E;
+    font-weight: bold;
+    cursor: pointer;
+}
+.tamaño{
+    font-size: 70px;
+}
+.piepagina img{
+    width: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        padding: 0 5px 0 5px;
+    }
+   
+    nav  div  .container1-hijo2{
+        display: none;
+    }
+    .fondo{
+        display: none;
+    }
+    .presentacion{
+        margin-top: 30px;
+        
+    }
+    .card{
+        margin-top: 50px;
+    }
+    .card-presentacion{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+    }
+    .card-presentacion-s2 h2{
+        font-size: 30px;
+    }
+
+    .habilidades-s1-cards{
+        width: 150px;
+        height: 150px;
+    }
+    .tamaño{
+        font-size: 40px;
+    }
+    .habilidades-s1-cards h2{
+        font-size: 20px;
+    }
+    .habilidades-s1-cards:hover{
+        width: 180px;
+        height: 180px;
+    }
+    .proyectos h2{
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .proyectos div img{
+        width: 300px;
+    }
+    .piepagina{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+    }
+
+   
+    .piepagina img{
+        width: 55px;
+    }
+
+  }
